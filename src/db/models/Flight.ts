@@ -5,7 +5,7 @@ export interface IPassenger extends Document {
   name: string;
   hasConnections: boolean;
   age: number;
-  flightCategory: string;
+  flightCategory: 'Black' | 'Platinum' | 'Gold' | 'Normal';
   reservationId: string;
   hasCheckedBaggage: boolean;
 }
